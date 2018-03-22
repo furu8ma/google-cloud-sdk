@@ -2,4 +2,4 @@
 use google-cloud-sdk via docker.
 
 ## Usage
-https://github.com/furu8ma/google-cloud-sdk
+https://qiita.com/furu8ma/items/0fba90cf1b78bfb63db8
