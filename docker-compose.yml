@@ -1,0 +1,11 @@
+version: '3'
+services:
+  gcloud:
+    build: .
+    volumes:
+      - ./work/:/root
+      - ./config:/root/.config/gcloud
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - CLOUDSDK_CONFIG=/root/.config/gcloud
+      - PROJECT_ID=xxxxx
